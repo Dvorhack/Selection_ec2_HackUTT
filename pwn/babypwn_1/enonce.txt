@@ -1,0 +1,10 @@
+Un simple programme qui vous demande votre nom. Que peut il y avoir de mal ?
+
+nc hackutt.uttnetgroup.fr 5001
+
+Compilation:
+sudo apt update
+sudo apt install gcc-multilib
+gcc chall.c -no-pie -fno-stack-protector -m32 -o chall
+
+Auteur: Dvorhack
